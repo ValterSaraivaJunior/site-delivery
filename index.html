@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Site delivery restaurante-VSJWeb</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="nav__header">
+          <div class="nav__logo">
+            <a href="#" class="logo">
+              <img src="img/vsjweblogo.png" alt="logo vsj web" />
+              <span>VSJWeb</span>
+            </a>
+          </div>
+          <div class="nav__menu__btn" id="menu-btn">
+            <i class="ri-menu-line"></i>
+          </div>
+        </div>
+        <ul class="nav__links" id="nav-links">
+          <li><a href="#home">VSJWeb</a></li>
+          <li><a href="#service">Serviços</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#contact">Contato</a></li>
+          <li>
+            <button class="btn">
+              <span><i class="ri-login-box-line"></i></span>
+              Login
+            </button>
+          </li>
+        </ul>
+        <div class="nav__btns">
+          <button class="btn">
+            <span><i class="ri-login-box-line"></i></span>
+            Login
+          </button>
+        </div>
+      </nav>
+      <div class="section__container header__container" id="home">
+        <div class="header__image">
+          <img src="img/Design sem nome.png" alt="mulher comendo" />
+        </div>
+        <div class="header__content">
+          <div class="header__tag">
+            Velocidade na Entrega
+            <img src="img/delivery-bike.png" alt="header tag" />
+          </div>
+          <h1>O mais rápido na entrega de sua <span>Comida</span></h1>
+          <p class="section__description">
+            Nosso trabalho é encher sua barriga com comida deliciosa e com rapidez
+            e entrega gratuita.
+          </p>
+          <div class="header__btns">
+            <button class="btn">Peça Já</button>
+            <a href="#">
+              <span><i class="ri-play-fill"></i></span>
+              Conheça nossa empresa
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="section__container service__container" id="service">
+      <p class="section__subheader">O QUE SERVIMOS</p>
+      <h2 class="section__header">Seu parceiro de entrega de comida favorito</h2>
+      <div class="service__grid">
+        <div class="service__card">
+          <img src="img/service-1.jpg" alt="serviço 1" />
+          <h4>Fácil de encomendar</h4>
+          <p>Você só precisa de alguns passos para pedir comida</p>
+        </div>
+        <div class="service__card">
+          <img src="img/service-2.jpg" alt="serviço 2" />
+          <h4>Entrega mais rápida</h4>
+          <p>Entrega sempre pontual, rapida de verdade</p>
+        </div>
+        <div class="service__card">
+          <img src="img/service-3.jpg" alt="serviço 3" />
+          <h4>Melhor qualidade</h4>
+          <p>Não só rapid, para nós a qualidade tambem e importante</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container menu__container" id="menu">
+      <p class="section__subheader">NOSSO CARDÁPIO</p>
+      <h2 class="section__header">Menu que sempre faz você se apaixonar</h2>
+      <!-- Slider main container -->
+      <div class="swiper">
+        <!-- Invólucro adicional necessário-->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <div class="menu__card">
+              <img src="img/menu6.png" alt="menu" />
+              <div class="menu__card__details">
+                <h4>Pizza Italiana</h4>
+                <h5><span>R$</span>74,90</h5>
+                <a href="#">
+                  Peça Já
+                  <span><i class="ri-arrow-right-line"></i></span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="menu__card">
+              <img src="img/menu5.png" alt="menu" />
+              <div class="menu__card__details">
+                <h4>Burrito Mexicano</h4>
+                <h5><span>R$</span>40,49</h5>
+                <a href="#">
+                  Peça Já
+                  <span><i class="ri-arrow-right-line"></i></span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="menu__card">
+              <img src="img/menu4.png" alt="menu" />
+              <div class="menu__card__details">
+                <h4>Penne ao Molho Cremoso de Frango</h4>
+                <h5><span>R$</span>75,99</h5>
+                <a href="#">
+                  Peça Já
+                  <span><i class="ri-arrow-right-line"></i></span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="menu__card">
+              <img src="img/menu3.png" alt="menu" />
+              <div class="menu__card__details">
+                <h4>Pizza Mussarela e Calabresa</h4>
+                <h5><span>R$</span>68,50</h5>
+                <a href="#">
+                  Peça Já
+                  <span><i class="ri-arrow-right-line"></i></span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="menu__card">
+              <img src="img/menu02.png" alt="menu" />
+              <div class="menu__card__details">
+                <h4>Nuggets de frango</h4>
+                <h5><span>R$</span>15,00</h5>
+                <a href="#">
+                  Peça Já
+                  <span><i class="ri-arrow-right-line"></i></span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="menu__card">
+              <img src="img/menu01.png" alt="menu" />
+              <div class="menu__card__details">
+                <h4>Frango com arroz</h4>
+                <h5><span>R$</span>112,00</h5>
+                <a href="#">
+                  Peça Já
+                  <span><i class="ri-arrow-right-line"></i></span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container client__container" id="client">
+      <div class="client__image">
+        <img src="img/client.png" alt="client" />
+      </div>
+      <div class="client__content">
+        <p class="section__subheader">O QUE ELES DIZEM</p>
+        <h2 class="section__header"> O que nosso cliente diz sobre nós</h2>
+        <p class="section__description">
+          "VSJ Web é simplesmente excelente! A variedade e a delícia de suas refeições são incomparáveis, 
+          oferecendo algo para todos os paladares. O que diferencia a VSJ Web é seu serviço excepcional. 
+          A entrega é impressionantemente rápida, 
+          garantindo que sua comida chegue quente e fresca."
+        </p>
+        <div class="client__details">
+          <img src="img/mulher.jpg" alt="client" />
+          <div>
+            <h4>Maria Chiquinha</h4>
+            <h5>Entusiasta da gastronomia</h5>
+          </div>
+        </div>
+        <div class="client__rating">
+          <span><i class="ri-star-fill"></i></span>
+          <span><i class="ri-star-fill"></i></span>
+          <span><i class="ri-star-fill"></i></span>
+          <span><i class="ri-star-fill"></i></span>
+          <span><i class="ri-star-line"></i></span>
+          <span>4.8</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="download__container" id="contact">
+      <div class="section__container">
+        <div class="download__image">
+          <img src="img/download.png" alt="download" />
+        </div>
+        <div class="download__content">
+          <p class="section__subheader">BAIXAR APLICATIVO</p>
+          <h2 class="section__header">Comece a usar o VSJ Web hoje!</h2>
+          <p class="section__description">
+            Descubra comida onde e quando quiser, sua comida
+            entregue no prazo, sempre.
+          </p>
+          <div class="download__btn">
+            <button class="btn">Baixe o aplicativo</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <div class="footer__logo">
+            <a href="#" class="logo">
+              <img src="img/vsjweblogo.png" alt="logo" />
+              <span>VSJ Web</span>
+            </a>
+          </div>
+          <p class="section__description">
+            Nosso trabalho é encher sua barriga com comida deliciosa e com rapidez
+            e entrega gratuita.
+          </p>
+          <ul class="footer__socials">
+            <li>
+              <a href="#"><i class="ri-instagram-fill"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="ri-facebook-fill"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="ri-twitter-fill"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Sobre</h4>
+          <ul class="footer__links">
+            <li><a href="#">Sobre Us</a></li>
+            <li><a href="#">Características</a></li>
+            <li><a href="#">Notícia</a></li>
+            <li><a href="#">Menu</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Company</h4>
+          <ul class="footer__links">
+            <li><a href="#">Por que VSJ Web</a></li>
+            <li><a href="#">Seja nosso parceiro</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Support</h4>
+          <ul class="footer__links">
+            <li><a href="#">Conta</a></li>
+            <li><a href="#">Centro de Suporte</a></li>
+            <li><a href="#">Feedback</a></li>
+            <li><a href="#">Contate-nos</a></li>
+            <li><a href="#">Acessibilidade</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Direitos autorais © 2024 VSJ Web Studio. Todos os direitos reservados.
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
